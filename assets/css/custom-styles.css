@@ -1,0 +1,282 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.contact-us {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+}
+
+.section-tittle span {
+    font-size: 18px;
+    color: #ff6347;
+}
+
+.section-tittle h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.contact-info {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 8px;
+}
+
+.contact-info a {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.contact-info a:hover {
+    color: #ff6347;
+}
+
+.contact-info i {
+    margin-right: 5px;
+}
+
+.btn-primary {
+    display: block;
+    margin: 20px auto;
+    background-color: #ff6347;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e5533d;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+}
+
+footer {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+    color: #333;
+    font-size: 14px;
+}
+
+.contact-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+.contact-image {
+    max-width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contact-text {
+    max-width: 500px;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-left: 20px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    padding: 0 40px;
+}
+
+.contact-item {
+    text-align: center;
+    margin: 0 30px;
+}
+
+.contact-item p {
+    margin: 5px 0;
+}
+
+#navigation li a.active {
+    color: #ff6347; /* Highlight color */
+    font-weight: bold;
+}
+
+.logo img.white {
+    filter: invert(1); /* Inverts the colors */
+}
+
+.logo img {
+    width: 50%; /* Reduce width to 75% */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10px; /* Add top margin */
+    margin-bottom: 20px; /* Add bottom margin */
+    margin-left: 40px; /* Add left margin to move right */
+}
+
+.hero__caption {
+    margin-top: 50px; /* Adjust the value as needed */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-text {
+    font-size: 24px; /* Adjust size as needed */
+    font-weight: bold;
+    color: #9b926d; /* Adjust color as needed */
+    margin-left: 10px; /* Space between logo and text */
+}
+
+/* Normal desktop :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .hero__caption h1 {
+        font-size: 3rem; /* Adjust font size */
+    }
+    .contact-text {
+        font-size: 18px; /* Adjust font size */
+    }
+}
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+    .hero__caption h1 {
+        font-size: 2.5rem; /* Adjust font size */
+    }
+    .contact-text {
+        font-size: 16px; /* Adjust font size */
+    }
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero__caption h1 {
+        font-size: 2rem; /* Adjust font size */
+    }
+    .contact-content {
+        flex-direction: column; /* Stack items vertically */
+    }
+    .contact-text {
+        margin-left: 0; /* Remove left margin */
+        text-align: center; /* Center text */
+    }
+}
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .hero__caption h1 {
+        font-size: 1.5rem; /* Adjust font size */
+    }
+    .contact-content {
+        flex-direction: column; /* Stack items vertically */
+    }
+    .contact-text {
+        margin-left: 0; /* Remove left margin */
+        text-align: center; /* Center text */
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px;
+    }
+    .hero__caption h1 {
+        font-size: 1.8rem; /* Adjust font size */
+    }
+    .contact-content {
+        flex-direction: column; /* Stack items vertically */
+    }
+    .contact-text {
+        margin-left: 0; /* Remove left margin */
+        text-align: center; /* Center text */
+    }
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+    .hero__caption h1 {
+        font-size: 3rem; /* Larger font size for bigger screens */
+    }
+    .contact-text {
+        font-size: 18px; /* Larger text for readability */
+    }
+}
+
+/* Desktops and tablets */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .hero__caption h1 {
+        font-size: 2.5rem; /* Slightly smaller font size */
+    }
+    .contact-text {
+        font-size: 16px; /* Adjust text size */
+    }
+}
+
+/* Tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+    .hero__caption h1 {
+        font-size: 2rem; /* Smaller font size for tablets */
+    }
+    .contact-content {
+        flex-direction: column; /* Stack items vertically */
+    }
+    .contact-text {
+        margin-left: 0; /* Remove left margin */
+        text-align: center; /* Center text */
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 767px) {
+    .hero__caption h1 {
+        font-size: 1.5rem; /* Smaller font size for mobile */
+    }
+    .contact-content {
+        flex-direction: column; /* Stack items vertically */
+    }
+    .contact-text {
+        margin-left: 0; /* Remove left margin */
+        text-align: center; /* Center text */
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 450px; /* Adjust container width */
+    }
+    .hero__caption h1 {
+        font-size: 1.8rem; /* Adjust font size */
+    }
+    .contact-content {
+        flex-direction: column; /* Stack items vertically */
+    }
+    .contact-text {
+        margin-left: 0; /* Remove left margin */
+        text-align: center; /* Center text */
+    }
+}
+
