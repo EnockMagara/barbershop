@@ -132,7 +132,7 @@ footer {
     height: auto; /* Maintain aspect ratio */
     margin-top: 10px; /* Add top margin */
     margin-bottom: 20px; /* Add bottom margin */
-    margin-left: 40px; /* Add left margin to move right */
+    margin-left: 20px; /* Add left margin to move right */
 }
 
 .hero__caption {
@@ -327,5 +327,11 @@ footer {
     background-color: #333; /* Set a dark background color */
     /* Remove any background image if present */
     background-image: none;
+}
+
+.slider-height {
+    min-height: 800px; /* Increase the minimum height */
+    /* You can also use height instead of min-height if you want a fixed height */
+    /* height: 600px; */
 }
 
