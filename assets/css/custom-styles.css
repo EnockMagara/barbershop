@@ -132,7 +132,7 @@ footer {
     height: auto; /* Maintain aspect ratio */
     margin-top: 10px; /* Add top margin */
     margin-bottom: 20px; /* Add bottom margin */
-    margin-left: 40px; /* Add left margin to move right */
+    margin-left: 20px; /* Add left margin to move right */
 }
 
 .hero__caption {
