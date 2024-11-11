@@ -329,3 +329,9 @@ footer {
     background-image: none;
 }
 
+.slider-height {
+    height: 800px; /* Increase the minimum height */
+    /* You can also use height instead of min-height if you want a fixed height */
+    /* height: 600px; */
+}
+
