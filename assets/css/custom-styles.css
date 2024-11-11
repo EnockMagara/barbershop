@@ -103,14 +103,15 @@ footer {
 
 .contact-details {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     margin: 20px 0;
-    padding: 0 40px;
+    padding: 0 20px;
 }
 
 .contact-item {
     text-align: center;
-    margin: 0 30px;
+    margin: 10px 0;
 }
 
 .contact-item p {
@@ -150,6 +151,14 @@ footer {
     margin-left: 10px; /* Space between logo and text */
 }
 
+.about-img {
+    text-align: center; /* Center images */
+}
+
+.about-caption {
+    text-align: left; /* Align text to the left */
+    padding-left: 20px; /* Add padding for spacing */
+}
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
     .hero__caption h1 {
@@ -191,10 +200,14 @@ footer {
     }
     .contact-content {
         flex-direction: column; /* Stack items vertically */
+        align-items: center;
     }
     .contact-text {
         margin-left: 0; /* Remove left margin */
         text-align: center; /* Center text */
+    }
+    .contact-details {
+        padding: 0 10px;
     }
 }
 
@@ -256,10 +269,14 @@ footer {
     }
     .contact-content {
         flex-direction: column; /* Stack items vertically */
+        align-items: center;
     }
     .contact-text {
         margin-left: 0; /* Remove left margin */
         text-align: center; /* Center text */
+    }
+    .contact-details {
+        padding: 0 10px;
     }
 }
 
@@ -278,5 +295,37 @@ footer {
         margin-left: 0; /* Remove left margin */
         text-align: center; /* Center text */
     }
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .about-caption {
+        text-align: center; /* Center text on smaller screens */
+        padding-left: 0; /* Remove padding */
+    }
+}
+
+.gallery-image {
+    width: 100%; /* Full width for mobile */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.image-caption {
+    text-align: center; /* Center the caption text */
+    margin-top: 10px; /* Space between image and caption */
+    font-size: 1rem; /* Responsive font size */
+}
+
+.logo-image {
+    max-width: 100%; /* Ensures the logo is responsive */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.header-area {
+    background-color: #333; /* Set a dark background color */
+    /* Remove any background image if present */
+    background-image: none;
 }
 
