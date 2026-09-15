@@ -1,0 +1,25 @@
+{
+  "name": "JegedEdge Hair Care & Barbering Services",
+  "short_name": "JegedEdge",
+  "description": "Professional barbershop in New Brunswick, NJ offering haircuts, styling, shaving, grooming and scalp treatments.",
+  "lang": "en-US",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#d19f68",
+  "icons": [
+    {
+      "src": "/assets/img/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/assets/img/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

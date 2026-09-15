@@ -238,7 +238,7 @@
 
 
 /* 10. WOW active */
-    new WOW().init();
+    if (typeof WOW !== 'undefined') { new WOW().init(); }
 
 // 11. ---- Mailchimp js --------//  
     function mailChimp() {
